@@ -13,7 +13,7 @@ module Testit6
     # -- all .rb files in that directory are automatically loaded.
     
     config.action_dispatch.default_headers = {
-    'Access-Control-Allow-Origin' => 'https://quiet-refuge-72491.herokuapp.com',
+    'Access-Control-Allow-Origin' => 'http://localhost:3000',
     'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
   }
   end
