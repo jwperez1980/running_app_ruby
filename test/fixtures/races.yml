@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  race_name: MyString
+  race_length: MyString
+  race_time: MyString
+  min_per_mile: MyString
+  runner: one
+
+two:
+  race_name: MyString
+  race_length: MyString
+  race_time: MyString
+  min_per_mile: MyString
+  runner: two
