@@ -16,7 +16,7 @@
 
   <tbody>
     <% @races.each do |race| %>
-      <tr>
+      <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
         <td><%= race.race_name %></td>
         <td><%= race.race_length %></td>
         <td><%= race.race_time %></td>
