@@ -14,9 +14,9 @@ module Testit6
     
     config.action_dispatch.default_headers = {
     'Access-Control-Allow-Origin' => 'http://localhost:3000',
-    'Access-Control-Allow-Origin' => 'http://localhost:63288',
-    'Access-Control-Allow-Origin' => 'https://data-engine.herokuapp.com',
+    'Access-Control-Allow-Origin' => 'http://localhost:63288',,
     'Access-Control-Allow-Origin' => 'https://quiet-refuge-72491.herokuapp.com'
+    'Access-Control-Allow-Origin' => 'https://data-engine.herokuapp.com'
     'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")
   }
   end
